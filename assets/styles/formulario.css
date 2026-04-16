@@ -1,7 +1,4 @@
-
-
-
-body{
+body {
     background-image: url('../images/background.gif');
     background-repeat:no-repeat;
     background-size: cover;
@@ -14,19 +11,23 @@ body{
     box-shadow: 0 0 10px black;
 }
 
-.fundo{
+.fundo {
     background-color:rgba(19, 48, 7, 0.534);
     display:flex;
     align-items: center;
     flex-direction:column;
     padding: 35px 0px 35px 0px;
-    width: 420px;
-    height:480px;
+    width: 350px;
+    height: auto;
     border-radius: 25px;
     border: 0.1px solid white;
-    color:white;
-
+    color:white; 
 }
+
+.cadastro {
+    width: 450px;
+}
+
 input::placeholder{
     color:rgb(156, 154, 154);
     padding:10px;
@@ -94,7 +95,7 @@ box-shadow: 0 0 10px rgba(137, 167, 55, 0.479);
     text-shadow: 0 0 10px rgb(6, 216, 6);
 }
 
-.entrar {
+.confirmar {
     margin-top: 10px;
     border-radius: 10px;
     border: none;
@@ -109,7 +110,7 @@ box-shadow: 0 0 10px rgba(137, 167, 55, 0.479);
     filter: brightness(100%);
     
 }
-.entrar:hover{
+.confirmar:hover{
     transform: scale(105%);
     height: 40px;
     font-weight:540;
@@ -138,6 +139,11 @@ box-shadow: 0 0 10px rgba(137, 167, 55, 0.479);
     align-items:center;
 
 }
+
+.fundo p {
+    display: inline;
+}
+
 .botoes .botao{
     background-color:rgb(216, 238, 206);
     padding:10px 20px;
